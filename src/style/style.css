@@ -3,3 +3,10 @@ body {
 }
 
 
+body .App {
+    display: -ms-grid;
+    display: grid;
+
+
+}
+

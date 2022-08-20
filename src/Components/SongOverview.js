@@ -12,10 +12,10 @@ class SongOverview extends Component {
     }
 
     addSong = () => {
-        let title = document.getElementById('title').value
-        let artist = document.getElementById('artist').value
-        let genre = document.getElementById('genre').value
-        let rating = document.getElementById('rating').value
+        const title = document.getElementById('title').value
+        const artist = document.getElementById('artist').value
+        const genre = document.getElementById('genre').value
+        const rating = document.getElementById('rating').value
 
         let nextId = this.getNextId(this.state.songs)
         this.setState(previousState => ({

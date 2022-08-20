@@ -17,7 +17,7 @@ function SongForm(props) {
             <input
             type="text"
             placeholder="Genre"
-            id="rating"
+            id="genre"
             />
             <input
             type="number"
